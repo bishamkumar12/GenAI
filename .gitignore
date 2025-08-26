@@ -1,0 +1,18 @@
+# Ignore your specific environment
+venvGenAI/
+
+# Other common virtual env names (just in case)
+.venv/
+venv/
+env/
+genai-env/
+
+# Ignore Conda build/config files
+*.conda
+*.egg-info/
+
+# VS Code settings (optional)
+.vscode/
+
+# Jupyter Notebook checkpoints (common in GenAI work)
+.ipynb_checkpoints/
