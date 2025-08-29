@@ -1,5 +1,7 @@
 # Ignore your specific environment
 venvGenAI/
+genai-venv/
+.env
 
 # Other common virtual env names (just in case)
 .venv/

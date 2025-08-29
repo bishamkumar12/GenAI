@@ -1,0 +1,19 @@
+Transformer. 
+
+Tokenization Process
+
+Vector Embeddings -- semantic meaning
+
+Positional Encoding
+ -- the position of tokens . the cat sat on mat. the mat sat on cat . these are two different sentences with different meaning. 
+
+
+Self Attention machanism . tokens talks with each other to adjust their Embeddings.
+ like: the river bank and the icic bank 
+
+Multi-Head Att ention: extension of the self-Attention machanism in Transformer models.
+focusing on different aspect of tokens
+
+Neural Network
+
+AI = Data + Algorithm
