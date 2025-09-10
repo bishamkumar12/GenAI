@@ -7,7 +7,9 @@ client = Groq()
 
 result = client.chat.completions.create(
     model = "openai/gpt-oss-120b", 
-    messages = [{'role': 'user', 'content': "hey there"}]
+    messages = [
+        {'role': 'user', 'content': "hey there"} # Zero shot prompting
+        ]
 )
 
 
