@@ -1,0 +1,30 @@
+---> Zero-shot Prompting: The model is given a direct question or task without prior examples. 
+
+---> Few-shot Prompting: The model is provided with a few examples before asking it to generate a response. 
+
+---> Chain-of-thought (CoT): Break complex problems into a sequence of intermediate steps, mimicking a human-like reasoning process to arrive at a final answer. 
+The model is encouraged to break down reasoning step by step before arriving at an answer. 
+
+---> Self-Consistency Prompting: The model generates multiple responses and selects the most consistent or common answer. 
+
+---> Persona-based Prompting: The model is instructed to respond as if it were a particular character or profession
+
+---> Role-Playing Prompting: We assign role to AI. The model assumes a specific role and interacts accordingly. 
+
+
+CoT + self-consistency + Persona + role base
+we can do 
+Making product whose value greater than gpt
+
+
+
+Instruction Prompting: The model is explicitly instructed to follow a particular format or guideline.
+Direct Answer Prompting: The model is asked to give a concise and direct response without explanation.
+
+
+
+Contextual Prompting: The prompt includes background information to improve response quality.
+Multimodal Prompting: The model is given a combination of text, images, or other modalities to generate a response.
+
+
+---> Contextual Prompting and Multimodal Prompting.  > code base
