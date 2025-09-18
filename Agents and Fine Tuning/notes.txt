@@ -1,0 +1,16 @@
+LLM --> Brain
+Agent --> Brain + Hath Paio
+
+Tooling
+LLM ---> Agent
+
+Dimag to ha tery pass, hath paio men de deta hon.
+
+architecture and system_prompt
+--> best system system_prompt generwates best result. 
+
+
+---> from my side: don't let any mystery unsolved in programming. see how things are working. Should see how things are working. 
+
+
+---> idea of project : 
