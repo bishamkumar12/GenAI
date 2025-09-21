@@ -14,3 +14,14 @@ architecture and system_prompt
 
 
 ---> idea of project : 
+
+
+-- commands:
+docker compose up
+
+in new terminal 
+python ollama_api.py : by this you will see in first terminal downloading geema.
+# first pulled ollama , now ollama is pulling geema.
+pip install uvicorn
+uvicorn ollama_api:app --port 8000
+scd 
