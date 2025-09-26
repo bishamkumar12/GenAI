@@ -1,0 +1,10 @@
+possible problems: 
+1. may be because of window . like can not write code in file because commands are not working in window. like echo
+
+2. or may be problem in system prompt
+
+3. or may be json object. 
+
+or may be any other. 
+
+will see tommorow
