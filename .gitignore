@@ -1,5 +1,6 @@
 # Ignore your specific environment
 venvGenAI/
+GenAI/
 genai-venv/
 .env
 
