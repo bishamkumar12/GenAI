@@ -33,14 +33,36 @@ embeddings = GoogleGenerativeAIEmbeddings(
 )
 
 # storing the embddings in vector data base
-vector_store = QdrantVectorStore.from_documents(
-    documents=[],
+# vector_store = QdrantVectorStore.from_documents(
+#     documents=[],
+#     url = "http://localhost:6333/",
+#     collection_name = "learning_langchain", 
+#     embedding = embeddings
+# )
+
+
+# vector_store.add_documents(documents=split_docs)
+print("Injection Done")
+
+
+## Now, Retrieval part
+
+retriever = QdrantVectorStore.from_existing_collection(
     url = "http://localhost:6333/",
     collection_name = "learning_langchain", 
     embedding = embeddings
 )
 
+# user query
+relevent_chunks = retriever.similarity_search(
+    query = "What is FS Module?"
+)
 
-vector_store.add_documents(documents=split_docs)
+# print("Relavent chunks ", relevent_chunks)
 
-print("Injection Done")
+SYSTEM_PROMPT = f"""
+You are an helpfull AI Assistant who responds base of available context. 
+
+Context: 
+{relevent_chunks}
+"""
